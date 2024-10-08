@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Div principal -->
+    <div class="calculadora">
+        <input type="text" class="calculadora-screen" value="" disabled />
+
+        <!-- Div dos botoes -->
+        <div class="botoes">
+            <button type="button" class="limpar" value="limpar">AC</button>
+            <button type="button" class="delete" value="del">DEL</button>
+            <button type="button" class="operador" value="%">%</button>
+            <button type="button" class="operador" value="/">&divide;</button>
+
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+            <button type="button" class="operador" value="*">&times;</button>
+
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" class="operador" value="-">-</button>
+        
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            <button type="button" class="operador" value="+">+</button>
+
+            <button type="button" value="0" class="zero">0</button>
+            <button type="button" class="virgula" value=".">.</button>
+            <button type="button" class="igual operador" value="=">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
